@@ -51,13 +51,23 @@ h2 a{
 #table_wrap h2{
     font-size: 30px;
 }
-table,th,td{
-    border: 1px solid black;
-    box-sizing: border-box;
-}
-table th{font-size: 20px; font-weight: 500;color: #f1f1f1; padding-left: 10px;}
-table td{font-size: 15px;}
+
 table{
     width: 100%;
     margin-bottom: 40px;
+    border-collapse: collapse;
 }
+
+table,th,td{
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+table th{
+    /* font-size: 20px; */
+    /* font-weight: 500; */
+    color: #f1f1f1;
+}
+
+/* table th h4{width:100px;} */
+table td{font-size: 15px;}
